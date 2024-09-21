@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeMark WhatsApp TV</title>
+    <link rel="icon" href="pic/DMlogo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="upbtn_style.css">
+</head>
+
+<body>
+  
+   <!-- Loading Screen -->
+   <div id="loading-screen">
+    <!-- Logo Image -->
+    <img src="pic/DMlogo.png" alt="Loading Logo" class="logo2">
+    <!-- Loading Bar -->
+    <div class="loading-bar-container">
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+    <!-- Loading Screen END-->
+
+    <!-- NAVBAR SECTION -->
+    <header class="header" id="navbar">
+        <div class="mobileHeader">
+          <img id="logo" src="pic/DMlogo.png" alt="logo"  width="100px" height="100px">
+          <button onclick={openMenu()} class="hamburger">  <img src="pic/ham.png" alt="" width="30px" height="30px"></button>
+         
+        </div>
+        <nav class="menu">
+          <ul class="list">
+            <li class="listItem"><a href="index.html">home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#serve">Services</a></li>
+            <li><a href="#join">Contact Us</a></li>
+            <li><a href="updates.html">Update</a></li>
+            <li><a href="game.html">Game</a></li>
+          </ul>
+        </nav>
+      </header>
+<!-- NAVBAR SECTION end-->
+<div class="navspace">  </div>
+<!-- HERO SECTION -->
+    <div class="hero">
+        <div id="typee"><p style="color: black; padding: 10px;" id="typewriter">  </p></div>
+
+        <div class="carousel">
+            <input type="radio" name="carousel" id="slide-btn-1" class="slide-btn" onclick="setInt ();" checked />
+            <input type="radio" name="carousel" id="slide-btn-2" class="slide-btn" onclick="setInt ();" />
+            <input type="radio" name="carousel" id="slide-btn-3" class="slide-btn" onclick="setInt ();" />
+            <input type="radio" name="carousel" id="slide-btn-4" class="slide-btn" onclick="setInt ();" />
+            <input type="radio" name="carousel" id="slide-btn-5" class="slide-btn" onclick="setInt ();" />
+
+            <div class="slide one"> </div>
+
+            <div class="slide two"><button class="herobtn"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+your+TV,+my+name+is">JOIN NOW</a></button>  </div>
+
+            <div class="slide three">   </div>
+
+            <div class="slide four"><button class="herobtn"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+your+TV,+my+name+is">JOIN NOW</a></button>  </div>
+
+            <div class="slide five">  </div>
+          </div>
+        
+
+        <div id="typee"><p style="color: rgb(255, 255, 255); padding: 10px; " id="typewriter2"><tt></tt> </p></div>
+       
+    </div>
+<!-- HERO SECTION END -->
+
+<!-- content -->
+    <div class="content">
+         
+            <div class="square" id="five"><img  src="pic/entertain.jpg" alt="" style="border-radius: 10px;" id="cotimg">  <span class="squaretext">Memes,comedey,news etc</span></div>
+            <div class="square" id="four"><img  src="pic/legit.jpg" alt="" style="border-radius: 10px;" id="cotimg"> <span class="squaretext">honest & Trustworthy </span></div>
+            <div class="square" id="three"><img  src="pic/fun.jpg" alt=""  style="border-radius: 10px;" id="cotimg"> <span class="squaretext">never a dull moment</span></div>
+            <div class="square" id="two"><img  src="pic/reliable.jpg" alt=""  style="border-radius: 10px;" id="cotimg"> <span class="squaretext">Always there for you</span></div>
+            <div class="square" id="one"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+your+TV,+my+name+is"><img  src="pic/join.jpeg" alt=""  style="border-radius: 10px;" id="cotimg"></a> <span class="squaretext">Message us</span></div>
+           
+    </div>
+<!-- content end-->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<!-- about section -->
+    <div class="about">
+
+        <h1 id="myHeading">ABOUT</h1>
+
+        <div class="abtstuff">
+          <div><img src="pic/abt1.png" alt="" id="abtimg"  ></div>
+          <div>
+            <p id="abttext">DeMark TV is an online platform that offers entertainment and business opportunities to its viewers. It was founded in 2020 as a WhatsApp group that shared memes, movies, celebrity news, and comedy. Over time, it evolved to meet the demands of its growing audience and became a place where producers of various products and services could advertise their businesses and reach their target customers....
+              
+            <center><a href="about.html"><button   id="myBtn">Read more</button></a></center>
+          </div>
+
+          <div><img src="pic/abt2.png" alt="" id="abtimg2"  ></div>
+    
+        </div>
+
+    </div>
+<!-- about section END -->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+    <!-- brag SECTION -->
+    <div class="brag">
+      <div class="brgtxt1">
+        <b style="color: blue;">
+          <div class="counter">
+          <span id="count">5999</span>
+        </div>
+      </b> <br> Happy Clients
+      </div>
+      <div class="brgtxt2">
+        <b style="color: blue;">+200</b> <br> Products
+      </div>
+      <div class="brgtxt3">
+        <b style="color: blue;">+50 </b><br> Courses
+      </div>
+    </div>
+<!-- brag SECTION END-->
+<br><br><br><br> <br><br><br><br> <br><br><br><br>
+<!-- REASON SECTION -->
+<h1 id="myHeading">Why Choose Us?</h1>
+
+    <div class="reason">
+      <div class="rsn"> 
+        <center>
+          <img src="pic/why1.jpg" alt="" id="rsnimg" width="20vh">
+           
+        </center>
+      </div>
+
+      <div class="rsn1">
+        <p> <b style="font-size: 20px; color: darkblue;">Here are some of the reasons why you should choose DeMark TV:</b>  <br>
+
+          <p><h3>Entertainment:</h3>  DeMark TV provides back to back entertainment content, such as memes, movies, celebrity news, and comedy. You can enjoy watching and sharing these content with your friends and family, and have a good laugh and a good time.</p>
+          <p> <h3>Business:</h3> DeMark TV offers various business opportunities for both producers and consumers. Producers can advertise their products or services on DeMark TV's WhatsApp status or other social media platforms, and reach a large and engaged audience. Consumers can discover and purchase verified and trusted products or services from reliable producers, and get occasional discounts and side products that come with a purchased product.</p>
+          <p> <h3>Education:</h3> DeMark TV provides verified courses that are brief but packed with all the necessary tips that you will need to excel in whatever course you choose to learn from this platform. You can learn new skills and improve your career prospects by enrolling in courses on topics such as marketing, design, programming, personal development, and more.</p>
+          <p> <h3>Income:</h3> DeMark TV post on legit an paying updates, allowing them to earn passive income while enjoying its content. You can also buy Products from DeMark TV that you can easily resale at your own convinence</p></p>
+      </div>     
+
+      <hr style="width: 100%;  " id="hr">
+      <div class="rsn2"> 
+        <p>DeMark TV has something for everyone, whether you are looking for entertainment, education, or income. Join now and always be up to date on things that matter</p><br>
+        <center><button id="resbtn"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+your+TV,+my+name+is">Join</a></button></center> <br>
+        <center><img src="pic/why2.png" alt="" id="rsnimg2"></center>
+      </div><br id="serve"> 
+    </div>
+
+<!-- REASON SECTION end-->
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<!-- Services SECTION -->
+<h1 id="myHeading">Our Services</h1>
+    <div class="serve">
+
+      <a href="ads.html"  id="adslnk">
+      <div class="ads">
+        <div id="adsimgd"><img id="adsimg" src="pic/ads.jpeg" alt=""></div>
+        <div id="adstxt"><h2 style="color: rgb(185, 185, 255);">Sponsored AD's</h2> With over 3000 members on whatsapp and +6000 on telegram we can garentee what ever you choose to advertise with us will get to your target audience and will generate leads  <br> <button id="adsbtn"> Explore</button></div>
+      </div>
+      </a>
+
+      <a href="logs.html" id="adslnk">
+        <div class="ads">
+          <div id="adsimgd"><img id="adsimg" src="pic/social logs.jpeg" alt=""></div>
+          <div id="adstxt"><h2 style="color: rgb(185, 185, 255);">Social Media Logs & More</h2>DeMark TV provides verified logins for all social media VPN and so More  <br> <button id="adsbtn">Explore</button></div>
+        </div>
+        </a>
+
+        <a href="social_bost.html" id="adslnk">
+          <div class="ads">
+            <div id="adsimgd"><img id="adsimg" src="pic/social boosting.jpeg" alt=""></div>
+            <div id="adstxt"><h2 style="color: rgb(185, 185, 255);">Social Media Boosting</h2>DeMark TV will help you get to the target on any of your social Media accounts. We can icrase the number of fo;;owers on your accout and so much more...<br> <button id="adsbtn">Explore</button></div>
+        </div>
+        </a>
+  
+        <a href="courses.html" id="adslnk">
+          <div class="ads">
+            <div id="adsimgd"><img id="adsimg" src="pic/course.jpg" alt=""></div>
+            <div id="adstxt"><h2 style="color: rgb(185, 185, 255);">Courses</h2>DeMark TV provides verified courses that are brief but packed with all the necessary tips that you will need to excel in whatever course you choose to learn from this platform. <br> <button id="adsbtn">Explore</button></div>
+          </div>
+          </a>
+
+        <a href="hackapp.html"  id="adslnk">
+          <div class="ads">
+            <div id="adsimgd"><img id="adsimg" src="pic/hakapp.jpeg" alt=""></div><br id="join">
+            <div id="adstxt"><h2 style="color: rgb(185, 185, 255);">Hacked Apps</h2> You can also buy hacked apps from DeMark TV that unlock the full features and benefits of your favorite apps without paying extra fees or subscriptions. <br> <button id="adsbtn">Explore</button></div>        
+          </div>
+        </a>
+
+    </div>
+<!-- Services SECTION end -->
+<br><br><br><br>  <br><br><br><br>  <br><br><br><br>
+<!-- CONTACT SECTION -->
+    <h1 id="myHeading"> Join Us</h1> <br>
+    <div class="contact">
+      <p style="margin:5px 40px;">DeMark TV is the ultimate online platform for entertainment and business. Don't miss this opportunity to join the DeMark TV community and enjoy its benefits. Choose DeMark TV today and you won't regret it. 😊</p>
+      <div class="buttons">
+        <a href="https://wa.me/+2348148083305?text=Hi%20I%20want%20to%20join%20your%20TV%20my%20name%20is___" class="button whatsapp">WhatsApp</a>
+        <a href="https://t.me/DeMark_Tv_tg" class="button telegram">Telegram</a>
+        <a href="https://www.instagram.com/invites/contact/?i=o8w59pgo2620&utm_content=u0dxshs
+        " class="button instagram">Instagram</a>
+        <a href="https://www.tiktok.com/@markohio?_t=8kbMbZpJb8A&_r=1" class="button tiktok">TikTok</a>
+        
+        <a href="https://www.facebook.com/profile.php?id=100094698744894" class="button facebook">Facebook</a>
+        <a href="https://twitter.com/TvDemark19487" class="button twitter">Twitter</a>
+        <a href="mailto:demarktv69@gmail.com" class="button email">Email</a>
+      </div>
+    </div>
+<!-- CONTACT SECTION end-->
+<br><br><br><br>  <br><br><br><br> <br><br><br><br>
+  
+<!-- UPDATE SECTION -->
+<h1 id="myHeading">Updates</h1>
+<center><button id="revbtn"  class="arrow-button"><b>Scroll</b>  <svg viewBox="0 0 24 24" id="svg">
+  <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8-8-8z" />
+</svg> </button></center>
+
+
+
+    <div class="update">
+
+      <div class="uptextcon" id="uptc2">
+        <div class="uptext">
+          <h2 style="color: rgb(185, 185, 255);">Data</h2>
+         <p>QuickVTU: Your Instant Digital Recharge Hub! <br>
+          With QuickVTU, you can recharge your mobile data, airtime, prepaid electricity, and TV subscriptions all in one place. It's a convenient, efficient, and cost-effective way to stay connected and powered up. Experience the simplicity of QuickVTU today!
+         </p>
+         <button id="upbtn"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+the+vtu+site">More</a></button>
+        </div>
+       </div>
+
+
+       <div class="uptextcon" id="uptc3">
+        <div class="uptext">
+          <h2 style="color: rgb(185, 185, 255);">Crypto</h2>
+         <p>Our cryptocurrency and mining platform brings together cutting-edge innovation and the latest technology. Stay informed about market trends, investment opportunities, and sustainable mining practices. Whether you're a beginner or experienced investor, we provide expert insights to help you navigate the crypto frontier.</p>
+         <button id="upbtn"><a href="https://wa.me/+2348148083305?text=Hey+I+want+to+know+more+about+cryptocurrency">More</a></button>
+        </div>
+       </div>
+
+
+       <div class="uptextcon" id="uptc1">
+        <div class="uptext">
+         <h2 style="color: rgb(185, 185, 255);">Movies</h2>
+         <p>Discover a World of Entertainment with DeMark Movie Hub! <br>
+ 
+           Are you ready for an adventure from the comfort of your own home? DeMark offers a handpicked selection of the most significant and impactful movies from all over the globe</p>
+         <button id="upbtn"><a href="https://t.me/DeMarkmoviehub">More</a></button>
+        </div>        
+       </div>
+       
+
+       <div class="uptextcon" id="uptc4">
+        <div class="uptext">
+          <center>         <button id="upbtn"><a href="updates.html"><h1  style="color: rgb(185, 185, 255);">More >>></h1> </a></button>
+          </center>
+        </div>
+       </div>
+    </div>
+
+
+   <!-- UPDATE SECTION  END--> 
+   <br id="reviwe"><br><br><br><br>  <br><br><br><br> <br><br><br><br>
+    <!-- REVIEW SECTION -->
+    <h1 id="myHeading">Testimonials</h1>
+    <div class="revsect">
+      <p>DeMark TV strives to always attain customer satisfaction, and the best way to do that is with its valued customers' feedback, which helps it to grow and improve itself. Here are some of its valued customers' reviews on its services:</p>
+
+      <div class="review">
+        <div class="rev-text">
+            <p><b>Wisdom</b> Fast delivery, high-quality accounts. <span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Isreal</b> Hacked apps virus-free, safe to use.<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span>_</p>
+            <p><b>Anonymous</b> Ad services helped grow my online presence. but try reducing the price<span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> Reliable business, trust them completely<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p> 
+            <p><b>Christyberbe</b> prices<span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> Hacked app stopped working after 2 months.<span id="str">&#9733;</span></p>
+            <p><b>cashual</b> Best social media account seller, highly recommend.<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Abasiekeme</b> Ad services effective, saw results quickly.<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Haladu</b>Entertainment services overpriced, not worth it<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> Bought multiple accounts, all working great.<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Sadiq60</b> Got over a thousand followers on my tiktok<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous-</b>five stars<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Pual</b>Hacked apps updated frequently, awesome! <span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> Account delivery took long, expected faster. <span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> Hacked apps are legit! Saved me like 10k on subscriptions. <span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Anonymous</b> guy ur logs legit die<span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+            <p><b>Mara</b> Bought 10 Instagram accounts, instant delivery! 10/10 <span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span><span id="str">&#9733;</span></p>
+        </div>
+      </div>
+      <center><a href="https://anonymousmessagelink.com/@da0e8fda"><button id="revbtn">Leave a Review</button></a></center>
+    </div>
+    <!-- REVIEW SECTION -->
+
+    <div id="grade"> <br><br><br><br><br><br></div>
+   <!-- footer section -->
+   <footer class="footer">
+    <div class="location">
+      <p  id="fhead">location</p>
+      <p>click to locate on goolgle maps</p>
+      <a href=""><img src="pic/map.png" alt="Facebook" width="50px" height="50px" class="social-img"></a>
+    </div>
+
+    <div class="footserve">
+      <p id="fhead">Services</p>
+      <p><a href="ads.html" class="fol">Advertisment </a></p>
+      <p><a href="logs.html" class="fol">Buy_Logins </a></p>
+      <p><a href="social_bost.html" class="fol">Boost_Account</a></p>
+      <p><a href="courses.html" class="fol">Courses </a></p>
+      <p><a href="hackapp.html" class="fol">Hacked_Apps </a></p>
+      <p><a href="#" class="fol"> Landscaping</a></p>     
+      <p><a href="#" class="fol"> I.C.T. Instalation</a></p>
+      <p><a href="#" class="fol"> General Contracts And Supply</a></p>    
+    </div>
+
+    <div class="footlink">
+      <p id="fhead"> Links</p>
+      <p><a href="index.html" class="fol"> Home</a></p>
+      <p><a href="about.html" class="fol"> About</a></p>
+      <p><a href="index.html#serve" class="fol"> Services</a></p>
+      <p><a href="index.html#join" class="fol"> Contact</a></p>
+      <p><a href="game.html" class="fol"> Game</a></p>
+    </div>
+
+    <div class="footfollow">
+      <p id="fhead">Contact</p>
+      <div class="social-image">
+        <a href="https://wa.me/+2348148083305?text=Hey+I+want+to+join+your+TV,+my+name+is"><img src="pic/wa.png" alt="whatsapp"   class="social-img"></a>
+        <a href="https://www.facebook.com/profile.php?id=100094698744894"><img class="social-img" src="pic/fb.png" alt="Facebook"   class="social-img"></a>
+        <a href="https://www.instagram.com/invites/contact/?i=o8w59pgo2620&utm_content=u0dxshs"><img src="pic/ig.png" alt="instagram"  class="social-img"></a>
+        
+      </div>
+      <div class="trms-pri">
+        <a href="terms and condition.html"> Terms & Conditions</a> <br>
+        <a href="privacy.html">Privacy</a>
+      </div>
+    </div>
+  </footer>  
+
+  <footer class="footer2">
+    <div class="" style="font-size: 10px;">
+      @DeMark TV,   All Rights Reserved
+    </div>
+    <div class="">
+      Designed by <a href="" style="color: blue;">Mark O. Ohio</a>
+    </div>
+  </footer>
+  <!-- footer section END -->
+ 
+</body>
+
+      <script  src="sctipt folder/load_script.js" ></script>
+
+      <script src="sctipt folder/nav_bar.js"></script>
+
+      <script src="sctipt folder/typewritter_effect.js"></script>
+
+      <script src="sctipt folder/typewritter_effect2.js"></script>
+
+      <script src="sctipt folder/hero_slide.js"></script>
+
+      <script src="sctipt folder/content_spin_and_audio.js"></script>
+
+      <script src="sctipt folder/btn_animate.js"></script>
+
+      <script src="sctipt folder/sticky_nav.js"></script>
+
+      <script src="sctipt folder/brag_counter.js"></script>
+ 
+  
+   
+ 
+</html>

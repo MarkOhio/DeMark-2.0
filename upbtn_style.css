@@ -1,0 +1,37 @@
+.arrow-button svg {
+    fill: rgb(255, 255, 255);
+    width: 24px;
+    height: 24px;
+    
+    animation: moveRight 1s infinite ease;
+  }
+  .arrow-button {
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+  
+  }
+  .arrow-button b{
+font-size: 20px;
+  }
+  @keyframes moveRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+
+
+  #str{
+    font-size: 20px;
+    color: gold;
+  }

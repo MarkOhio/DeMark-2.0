@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeMark WhatsApp TV</title>
+    <title>About DeMark WhatsApp TV</title>
+    <link rel="icon" href="pic/DMlogo.png" type="image/png">
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
@@ -16,11 +17,8 @@
         border: 2px solid white;
         width: fit-content;
         padding: 10px;
- 
         margin: 3px;
-
     }
-    
     #aimg{
         width: 200px;
     }
@@ -29,14 +27,24 @@
         padding: 5px;
         border: none;
     }
-
-  
 </style>
 <body>
+   
+   <!-- Loading Screen -->
+   <div id="loading-screen">
+    <!-- Logo Image -->
+    <img src="pic/DMlogo.png" alt="Loading Logo" class="logo2">
+    <!-- Loading Bar -->
+    <div class="loading-bar-container">
+      <div class="loading-bar"></div>
+    </div>
+  </div>
+    <!-- Loading Screen END-->
+
      <!-- NAVBAR SECTION -->
      <header class="header" id="navbar">
         <div class="mobileHeader">
-          <img id="logo" src="pic/InShot_20230921_120803387.png" alt="logo"  width="100px" height="100px">
+          <img id="logo" src="pic/DMlogo.png" alt="logo"  width="100px" height="100px">
           <button onclick={openMenu()} class="hamburger">  <img src="pic/ham.png" alt="" width="30px" height="30px"></button>
          
         </div>
@@ -46,6 +54,7 @@
             <li><a href="about.html">About Us</a></li>
             <li><a href="index.html#serve">Services</a></li>
             <li><a href="index.html#join">Contact Us</a></li>
+            <li><a href="updates.html">Update</a></li>
             <li><a href="game.html">Game</a></li>
           </ul>
         </nav>
@@ -53,19 +62,11 @@
 <!-- NAVBAR SECTION end-->
 <br> <br> <br> <br>
 <div class="abttext">
-     
-           
- 
-        
- 
-        <p>DeMark TV was created in 2020 by <a href="">Mark O. Ohio</a>, it was created at first as an Entertainment on WhatsApp, which posted purely entertainment, scuch as Memes, movies, Celebrity News and Comedy.</p> <br>
-But over time as-per consumer requests it evolved as its viewers grew. soon enough it became a space where Producers of various products and services could promote their businesses, and make sure their product could reach target customers, if any are avaliable. <br>
-With DeMark TV, we strive to build & establish trust with our esteemed Consumers by bringing only verified trusted updates or Products, and to always deliver when goods or services are purchased. <br>
-We strive to be polite and to provide smooth and positive experiences for our customers and we prefer to have a mutual symbiotic relationship that leads to a better patronage for the producers and active/passive patronage income for the consumers. <br>
-The community mainly operates on WhatsApp, but its expanding to other social media platforms, the likes of; <br> <br>
- 
- 
-
+        <p>DeMark TV was created in 2020 by <a href="https://wa.me/+2348148083305?text=Hey">Mark O. Ohio</a>, it was created at first as an Entertainment on WhatsApp, which posted purely entertainment, scuch as Memes, movies, Celebrity News and Comedy.</p> <br>
+        But over time as-per consumer requests it evolved as its viewers grew. soon enough it became a space where Producers of various products and services could promote their businesses, and make sure their product could reach target customers, if any are avaliable. <br>
+        With DeMark TV, we strive to build & establish trust with our esteemed Consumers by bringing only verified trusted updates or Products, and to always deliver when goods or services are purchased. <br>
+        We strive to be polite and to provide smooth and positive experiences for our customers and we prefer to have a mutual symbiotic relationship that leads to a better patronage for the producers and active/passive patronage income for the consumers. <br>
+        The community mainly operates on WhatsApp, but its expanding to other social media platforms, the likes of; <br> <br>
     <div class="buttons">
       
       <a href="https://t.me/DeMark_Tv_tg" class="button telegram">Telegram</a>
@@ -83,7 +84,7 @@ The community mainly operates on WhatsApp, but its expanding to other social med
     <center>
         <h3>Founder & CEO</h3>
         <h4>Mark O. Ohio</h4>
-        <button>Contact</button>
+        <button><a href="https://wa.me/+2348148083305?text=Hey">Contact</a></button>
     </center>
    
   </div>
@@ -94,6 +95,8 @@ At DeMark TV, we aim to build and establish trust with our valued consumers by p
 
 We offer various servicies which include:
 <a href="ads.html" class="button twitter" style="width: min-content; height: 30px; margin: 5px;">Advertisment</a>
+<a href="logs.html" class="button twitter" style="width:min-content; height: 30px;margin: 5px;">Social_media_logs</a>
+<a href="social_bost.html" class="button twitter" style="width:min-content; height: 30px;margin: 5px;">Social_media_Boosting</a>
 <a href="courses.html" class="button twitter" style="width:min-content; height: 30px;margin: 5px;">Courses</a>
 <a href="hackapp.html" class="button twitter" style="width:min-content; height: 30px;margin: 5px;">Hacked_Apps</a> <br>
 all of which are tested and trusted by our thousands of Viewers <br>
@@ -117,12 +120,14 @@ Don't just take our word for it. Here's what some of our happy customers and par
     <div class="location">
       <p  id="fhead">location</p>
       <p>click to locate on goolgle maps</p>
-      <a href=""><img src="pic/reliable.jpg" alt="Facebook" width="50px" height="50px" class="social-img"></a>
+      <a href=""><img src="pic/map.png" alt="Facebook" width="50px" height="50px" class="social-img"></a>
     </div>
 
     <div class="footserve">
       <p id="fhead">Services</p>
       <p><a href="ads.html" class="fol">Advertisment </a></p>
+      <p><a href="logs.html" class="fol">Buy_Logins </a></p>
+      <p><a href="social_bost.html" class="fol">Boost_Account</a></p>
       <p><a href="courses.html" class="fol">Courses </a></p>
       <p><a href="hackapp.html" class="fol">Hacked_Apps </a></p>
       <p><a href="#" class="fol"> Landscaping</a></p>     
@@ -146,6 +151,12 @@ Don't just take our word for it. Here's what some of our happy customers and par
         <a href="https://www.facebook.com/profile.php?id=100094698744894"><img class="social-img" src="pic/fb.png" alt="Facebook"   class="social-img"></a>
         <a href="https://www.instagram.com/invites/contact/?i=o8w59pgo2620&utm_content=u0dxshs"><img src="pic/ig.png" alt="instagram"  class="social-img"></a>
       </div>
+
+    
+    <div class="trms-pri">
+      <a href="terms and condition.html"> Terms & Conditions</a><br>
+      <a href="privacy.html">Privacy</a>
+    </div>
     </div>
   </footer>  
 
@@ -160,34 +171,9 @@ Don't just take our word for it. Here's what some of our happy customers and par
   <!-- footer section END -->
 </body>
 
-<script>
-    // NAV MENU
-        const menu = document.querySelector(".menu");
-    let open;
-    
-    function openMenu() {
-      if (open) {
-        menu.style.display = "none";
-        open = false;
-      } else if (!open) {
-        menu.style.display = "block";
-        open = true;
-      }
-    }
-      </script>
+<script  src="sctipt folder/load_script.js" ></script>
 
-<script>
-    window.onscroll = function() {myFunction()};
-    
-    var navbar = document.getElementById("navbar");
-    var sticky = navbar.offsetTop;
-    
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-      } else {
-        navbar.classList.remove("sticky");
-      }
-    }
-    </script>
+<script src="sctipt folder/nav_bar.js"></script>
+
+<script src="sctipt folder/sticky_nav.js"></script>
 </html>
