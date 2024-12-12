@@ -167,6 +167,44 @@ html{
     }
 /* NAVBAR END */
 
+
+  /* Add some basic styling to the search bar */
+  .search-bar {
+    position: relative;
+    width: 50%;
+    margin: 20px auto;
+    color: black;
+}
+.search-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+}
+.search-results li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.search-results li:hover {
+    background-color: #f2f2f2;
+}
+
+
+
+
+
 /* HERO section */
 .hero{
     margin: 30px;
@@ -823,6 +861,32 @@ a {text-decoration: none;}
 #grade{
   background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(255, 255, 255));
 }
+
+
+
+
+
+
+
+.disclaim button{
+  padding: 5px 50px;
+  text-decoration: none;
+  font-size: 20px;
+  color:  white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 3px solid blue;
+  border-radius: 5px;
+}
+
+.disclaim button:hover{
+  color: black;
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+  border: 3px dotted blue;
+}
+
+
 
 
 
